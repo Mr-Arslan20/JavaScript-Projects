@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #414141;
+}
+.clock{
+    max-width: 500px;
+    height: auto;
+    margin: 50px auto;
+     padding: 20px;
+     background-color: aliceblue; 
+}
+#heading2{
+    text-align: center;
+
+    border-bottom: 1px solid black;
+    margin-top: 3px;
+    padding-bottom: 10px;
+    
+}
+#time{
+    height: auto;
+    width: 150px;
+    background-color: #414141;
+    padding: 30px;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 50px auto;
+    padding: 40px;
+}

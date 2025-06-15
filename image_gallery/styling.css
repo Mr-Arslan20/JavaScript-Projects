@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* gap: 20px; */
+    padding: 50px 8%;
+    background-color: #dadada;
+}
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.gallery img{
+    width: 20%;
+    height: 300px; /* Set a fixed height */
+  object-fit: cover; /* Ensures images fill the area without distortion */
+  border-radius: 10px; /* Optional: Gives images a rounded look */
+}
+
+.image-viewer {
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.image-viewer img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}

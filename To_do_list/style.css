@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #414141;
+}
+.main{
+    background-color: antiquewhite;
+    height: auto;
+    width: 60vw;
+    margin: 100px auto;
+    padding: 20px;
+}
+.task{
+    display: flex;
+    margin-top: 15px;
+}
+#input{
+    border-radius: 15px;
+    height: 35px;
+    border-style:solid;
+}
+#add{
+    border-radius: 15px;
+    height: 35px;
+    width: 85px;
+    border-style:solid;
+    background-color: orange;
+    color: white;
+    position: fixed;
+    margin-left: 140px;
+
+}
+#listcontainer{
+    margin-top: 30px;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 15px;
+    user-select: none;
+    cursor: pointer;
+  
+}
+#listcontainer ul{
+    list-style: none;
+    padding: 0;
+    
+   
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styls.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div><i class="fa-solid fa-chevron-left"></i></div>
+        <div class="menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="music_img">
+          <img src="arjit.jpg" alt="" />
+        </div>
+        <div class="music_name">
+          <h3>Tenu Samjhawa ki</h3>
+          <p>by Arjit Singh</p>
+        </div>
+      </div>
+     
+
+        <audio controls id="song">
+           <source  src="smjhwa ki.mp3" type="audio/mp3">
+          </audio>
+      
+
+      <div class="line_bar">
+        <input type="range" name="" id="range" min="0" max="100" value="0" placeholder="#" />
+      </div>
+      
+      <div class="play_button">
+        <button id="div1" type="#" ><i class="fa-solid fa-backward"></i></button>
+        <button onclick="playPause()" id="div2" type="#"><i class="fa-solid fa-play"></i></button>
+        
+        <button id="div3" type="#"><i class="fa-solid fa-forward"></i></button>
+      </div>
+     
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

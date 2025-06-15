@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(95, 189, 247);
+}
+.head{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#input{
+    height: 25px;
+    border-style: double;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+#btn{
+    height: 25px;
+    border-radius: 8px;
+    margin-left: 2px;
+}
+
+.weather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.weather img{
+   background-blend-mode: multiply;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+.details p{
+    font-size: 20px;
+    margin-left: 29px;
+}
